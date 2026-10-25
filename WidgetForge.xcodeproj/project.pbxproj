@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0487A61342CF55FD5330D385 /* ThemeKitThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = B8AFECDCBE4699AD24D80844 /* ThemeKitThemeManager */; };
+		05A865F6E714C5A0124FB604 /* WidgetSnippetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DDA3F6E4CFBF66D23C4F9 /* WidgetSnippetViews.swift */; };
+		08AEF1CCA6CBB14E5A1BFB13 /* LayeredParallaxGlassConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BE18F3AB392101C9C103D2 /* LayeredParallaxGlassConcept.swift */; };
+		1666D94A2DA35E16CA283B83 /* BrutalistMonoConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF48390A4F1FD107EA6D97 /* BrutalistMonoConcept.swift */; };
+		1834E747E34341AF604FD8D1 /* ThemeKitThemeManager in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC9E191E81196008CAA8FA2 /* ThemeKitThemeManager */; };
+		18E950E68F48E6F09C627CB0 /* ContourTopoConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5B7B4FB9A354A109790DBB /* ContourTopoConcept.swift */; };
+		1F2E586B8A557E52C47CB917 /* PersonaChipRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17EF3AD9F58FCF22E062F8 /* PersonaChipRow.swift */; };
+		219F63A39E8D1F4C7DC195AC /* SummarizeWidgetIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB195FC9ECAC90ED3A2B604 /* SummarizeWidgetIntent.swift */; };
+		21AA0134D845CD2B82A4C5BD /* ThemeKitSwiftUICore in Frameworks */ = {isa = PBXBuildFile; productRef = E1338C229165E3F2DD8F11DF /* ThemeKitSwiftUICore */; };
+		257D5B38C99570D203B34280 /* BoldDataVizConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C754F58098A9FC41D705860 /* BoldDataVizConcept.swift */; };
+		27969B8A714B122BF516CD66 /* SampleGlassConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791C091B9158661E9FF9B0C /* SampleGlassConcept.swift */; };
+		2A3DB9B74EAF5D7CA1AEC599 /* ParticleConstellationConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50046C58C26027819486254E /* ParticleConstellationConcept.swift */; };
+		2B506E64B1D881D848353885 /* MyWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66E46DE33242B0D441FB2B7 /* MyWidgetsView.swift */; };
+		2EAE1E336377678C3D030916 /* ConceptContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4058D1C6172D2343ECC9E0FA /* ConceptContext.swift */; };
+		31E06546D124A6A89EC86147 /* ThemeKitCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 591896791683108390911710 /* ThemeKitCharts */; };
+		3297B4330310B584D7E0494B /* TypographicPosterConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B2E5D3017EF8BE81F6DA8 /* TypographicPosterConcept.swift */; };
+		34B6EBCC69914595DA02F1EC /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BC2ECA44F4B359F00DD6D6 /* GalleryView.swift */; };
+		34D05F8EB72087FB71D5EF22 /* NewspaperColumnConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1BC2CDDE813EA486880D1 /* NewspaperColumnConcept.swift */; };
+		34EFB289B209C0725B457911 /* HalftoneGradientConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474B09912F813833CDED548B /* HalftoneGradientConcept.swift */; };
+		359267504FD84E36B41DE890 /* MinimalRingConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3927C531BB6CF51A6BDB5C /* MinimalRingConcept.swift */; };
+		35A86735A2B1444EF830E154 /* GradientMeshConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72DDFE1627868A0B9F2D3A /* GradientMeshConcept.swift */; };
+		35B991FE3AB0969FAE54C67C /* HolographicConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = D129AEED21648227B401E394 /* HolographicConcept.swift */; };
+		39821F68EF02BD04059732AB /* NeonWireGlobeConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598104FFBE2B186D05A208C2 /* NeonWireGlobeConcept.swift */; };
+		41FA7C3FD47CC6DE4799D178 /* ThemeKitCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 56ACE9D1F610D35B12725AB3 /* ThemeKitCharts */; };
+		421D3D589D349492037C5E65 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392CCEC1147FC7763A78358A /* AppsView.swift */; };
+		4401BE6835E47CB4C371098C /* BindingPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E647C50BD32696FBB5FEB65 /* BindingPicker.swift */; };
+		443CED0FEDDBCC80D62EB604 /* montage.py in Resources */ = {isa = PBXBuildFile; fileRef = 938A642C6396B22986960493 /* montage.py */; };
+		44BD8F26C5060DCF87FAE349 /* AuroraNoiseFieldConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB90B9636A565D3E307E39E /* AuroraNoiseFieldConcept.swift */; };
+		48F17417F419327EBACA7DD7 /* EditorialSerifConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = C825457DDEF6D85C79C9E495 /* EditorialSerifConcept.swift */; };
+		4A5A0B0C5CD995F114111059 /* NewWidgetSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1371AEB6FC38B9E43B1A108B /* NewWidgetSheet.swift */; };
+		4E04BEDEE67ED892F5458CB5 /* NeonCyberConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1CCE66D3AE86D54B82E7082 /* NeonCyberConcept.swift */; };
+		54262012468F5635DD6EE3B5 /* ConceptRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A0BB0784F4AC4148FD1587 /* ConceptRenderer.swift */; };
+		55A20BC320329040981CE791 /* DarkLuxeConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D672BBEB4999C0033964D10 /* DarkLuxeConcept.swift */; };
+		563A27019C58090148F144ED /* PlacementSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5099DA78AAD668A3BF4E2E /* PlacementSolver.swift */; };
+		64131F47E844722EE6E7E5CD /* CellEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D976861CD9CBBEA4F38C639 /* CellEditorView.swift */; };
+		644CEF67FACFE3CDA092019F /* WidgetForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE56A90C10C407EBD448FDBE /* WidgetForgeApp.swift */; };
+		650005A158CECFE040438C3C /* LayoutEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08E19142C730EE0994A5BF /* LayoutEditorSheet.swift */; };
+		6955B7BE77365977348DAED0 /* VoronoiShatterConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9EC21BEE6D49E2C8005A67 /* VoronoiShatterConcept.swift */; };
+		7036BE2D5EF95A20847AA178 /* DuotoneBoldConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94EE07EE832E5777AB781C3 /* DuotoneBoldConcept.swift */; };
+		73C7DFC794E07FE608234D93 /* LayoutFamilyChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7C60E63B97E86C587766B6 /* LayoutFamilyChoice.swift */; };
+		75A80962086BB60E22F697B8 /* SpirographWeaveConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED07BEF984ADD8AB646860C0 /* SpirographWeaveConcept.swift */; };
+		7EC964A69C84CDF7519DC387 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A316A6DF92013D0997622CF3 /* GalleryViewModel.swift */; };
+		8711D3D532442D88AF51C5CD /* WarmSunsetConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658764C0B85A6F169F229885 /* WarmSunsetConcept.swift */; };
+		87B7B85EA8BE5A533FCA4442 /* PublishingAppEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576C50E5DA568B1DF1D30443 /* PublishingAppEntity.swift */; };
+		889951C31494A4AB7AC5FF02 /* LayoutTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0EF8EC5DFA0AC66A73C08 /* LayoutTimelineProvider.swift */; };
+		8B6652C1EA993C3BBEA44207 /* WidgetConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC15AB3059EFC34FBA4E415 /* WidgetConcept.swift */; };
+		8E3131910436C7E7F824D471 /* WidgetForgeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 168E5D00DB8A82247002072D /* WidgetForgeKit */; };
+		9348B18A90A870BF78FFD952 /* HexTessellationConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3542B50D6169A93F415B9E34 /* HexTessellationConcept.swift */; };
+		93B2642CF5DF2C199294F6A6 /* SwissInternationalConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9144C7BB38ED187B4ACFF696 /* SwissInternationalConcept.swift */; };
+		93B98ABC7DB1256ABE56ADC1 /* ThemeKitSwiftUICore in Frameworks */ = {isa = PBXBuildFile; productRef = 4F3AF12F0BF615B8152D3295 /* ThemeKitSwiftUICore */; };
+		94CA1CCF71CE5F9929AA2192 /* WidgetForgeWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D3A5B39034B98A2AED9FC3 /* WidgetForgeWidgetsBundle.swift */; };
+		96F4C28209A0E217939E69AC /* TypeGridPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66BF20E3068AF2D24E3ECF2 /* TypeGridPicker.swift */; };
+		9A8B24D81A1FF88AC55DFB76 /* LiquidGlassProConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB8974701FA8D0DC9A3607D /* LiquidGlassProConcept.swift */; };
+		9B651FB2AEF16B43A7C152DA /* LiquidChromeBlobConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D3A19BB3C3444CC57D62A /* LiquidChromeBlobConcept.swift */; };
+		9EE03CB1275251A6C4FA82C8 /* ValidationBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FE68B0918517EFA4317C94 /* ValidationBanner.swift */; };
+		A1EE18B7238D4601745EF68E /* WidgetForgeWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DE5DD287C2E736C794941569 /* WidgetForgeWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A21B7FDF4746C0931EB254CC /* EditorCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A0AC80A2CD83933D678FB9 /* EditorCanvas.swift */; };
+		A452B030DC75D285462AB93D /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88191FC3DF27AF13E5C2BD /* AppRouter.swift */; };
+		A4AA9D81A61D158895F59492 /* ShowWidgetKindIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FEA88112BD1F1238919018 /* ShowWidgetKindIntents.swift */; };
+		A73983B80FDF3AB01FCAEDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C765EE92CE39168C60C49F /* Assets.xcassets */; };
+		ACDCA7AE29ECEECC343DDF57 /* GlassRefractionConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DC17DE41150C48D7E414D6 /* GlassRefractionConcept.swift */; };
+		B0DCD9ED91F1A94C83F53903 /* RadialSunburstConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0179CF4DDAEC49960A271D64 /* RadialSunburstConcept.swift */; };
+		BBFA38A5C29483EC5F6B72B8 /* AskWidgetIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12758AA94BB4B073D030339E /* AskWidgetIntent.swift */; };
+		BE9A02AF7D270E3CA27C408C /* WidgetRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83911D16A52B31C2D518C0D /* WidgetRootView.swift */; };
+		BF9236411AE2940E2D87F2B2 /* TerminalRetroConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B570752B84347A6593EF6 /* TerminalRetroConcept.swift */; };
+		C1A00D0A8329B3EFA864D57F /* OpenAndRefreshIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3479FF82B94BBA4ADDB5D124 /* OpenAndRefreshIntents.swift */; };
+		C703A2E5078215D43B339024 /* CellChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0993C576AC852243856CFC /* CellChrome.swift */; };
+		C7220F08652C07FE3EED6BE3 /* SliceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB1784E4138ECED17E3C2C /* SliceEntity.swift */; };
+		CBADC3C222788D26901E01B5 /* CircuitBoardConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCAFF85ACC15E4A535A58B2 /* CircuitBoardConcept.swift */; };
+		CE1B3AC3CF943B947D5DE581 /* RecoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0BC878F25A2069F455BA5D /* RecoveryView.swift */; };
+		CECF1E81CB2791F1D71905AA /* SelectLayoutIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A384B3350432567F6E32A6EF /* SelectLayoutIntent.swift */; };
+		CF328DE03961A71C0AA39D93 /* RibbonWave3DConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDBABCA1FCD12131796B35 /* RibbonWave3DConcept.swift */; };
+		D0C2B4F485BD8E6944F245DB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B88637001FBCFBAAC6A2183 /* SwiftUI.framework */; };
+		D7C94F8DCB8FBFD8D04064D3 /* StratifiedLayersConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB59C2BAF4E1B96900F136B /* StratifiedLayersConcept.swift */; };
+		DA6BA573929EE17DC9952112 /* ComponentConfigForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286569E073510461EFC2590F /* ComponentConfigForm.swift */; };
+		DB02BD779ED9926D41B2A5B2 /* DebugDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD3BF9697FC7C390E9C624 /* DebugDataView.swift */; };
+		DC737C361A27435C5516E3EE /* ThemeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D652E0E7D287BDAED7F172A /* ThemeRenderer.swift */; };
+		DD49111E915FD74E200C53BC /* WidgetForgeRefreshTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0A7CA26407063DD1B2EE5C /* WidgetForgeRefreshTask.swift */; };
+		DE4393B54CD388E5B59EF026 /* PaperMinimalConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EF604592417D99074F7B04 /* PaperMinimalConcept.swift */; };
+		E167D01F296508C09424CBEC /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D281E89FF33EB29A13A78436 /* ThemePicker.swift */; };
+		E26864C7B45BD7A86FADA982 /* PreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318F659253AB4FA216791DD /* PreviewCard.swift */; };
+		E776E8C2A98CE57FBBE1435F /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691C0E7D8FA441F53DE1A48C /* WidgetKit.framework */; };
+		E956ED1CF9B80997707A5928 /* WidgetShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DCBC7CF3E48EFA45F64119 /* WidgetShortcuts.swift */; };
+		E9F69B8A5F00AA4605DB5BB4 /* PlayfulRoundedConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DBF1AFCF91B06C7E6A590 /* PlayfulRoundedConcept.swift */; };
+		EB7E91A66D95EE0EDCD729D1 /* WidgetForgeKit in Frameworks */ = {isa = PBXBuildFile; productRef = A01676AF28FB96AAA42C3165 /* WidgetForgeKit */; };
+		EDEAA79F8B0A92AF08A28E1A /* WidgetForgeAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10852861CEC9897ABB97CF5 /* WidgetForgeAppDelegate.swift */; };
+		EEADAFFF04E04A88055FCE36 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F91C7FBB864E57FEA0476C /* HomeView.swift */; };
+		EF2B29FC176F27EA2EFD71B2 /* AuthorLayoutIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071A1C956819A8FA32B900CD /* AuthorLayoutIntent.swift */; };
+		EF739A22845BA87A4FE35F2B /* NeumorphicConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD14D04731504741278846C /* NeumorphicConcept.swift */; };
+		F0BCE645C7C6B7BEE175494B /* GenerativeFlowFieldConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F7CBB1905C9C6BB3C9623 /* GenerativeFlowFieldConcept.swift */; };
+		F31642410DAB6FBEBC79B906 /* AuroraGradientConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC56A52A11B5A6001A60622 /* AuroraGradientConcept.swift */; };
+		F410153E156F710EA283061E /* BokehDepthConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8644FF466331B8AC92F0B470 /* BokehDepthConcept.swift */; };
+		F42CDF3C83F11E3FCE1CEE1F /* MonochromeInkConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E97BD876CADED75A2C127A /* MonochromeInkConcept.swift */; };
+		F77BA3CAD2A9EFAE08C67F74 /* BentoGridConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83F2CD9D20DA7B1B1D8074B /* BentoGridConcept.swift */; };
+		FAEB6DE84D6D702D104C1E33 /* GlassFrostConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5914F60A22CEB2B6EA2FF0F /* GlassFrostConcept.swift */; };
+		FEDBA4C96DAF316BCC619FD1 /* GalleryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4993BC54EAC1CC2707298 /* GalleryCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A39856B1F35FC53E62BE8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4949C90C723B6B860A5A29C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83AB15966C93F78CEE0DD74;
+			remoteInfo = WidgetForgeWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6852A2FCD15EED4C7FF8E1B2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1EE18B7238D4601745EF68E /* WidgetForgeWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0179CF4DDAEC49960A271D64 /* RadialSunburstConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialSunburstConcept.swift; sourceTree = "<group>"; };
+		03D3A5B39034B98A2AED9FC3 /* WidgetForgeWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetForgeWidgetsBundle.swift; sourceTree = "<group>"; };
+		071A1C956819A8FA32B900CD /* AuthorLayoutIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorLayoutIntent.swift; sourceTree = "<group>"; };
+		08B4993BC54EAC1CC2707298 /* GalleryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCard.swift; sourceTree = "<group>"; };
+		0E1D3A19BB3C3444CC57D62A /* LiquidChromeBlobConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidChromeBlobConcept.swift; sourceTree = "<group>"; };
+		10FE68B0918517EFA4317C94 /* ValidationBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationBanner.swift; sourceTree = "<group>"; };
+		12758AA94BB4B073D030339E /* AskWidgetIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskWidgetIntent.swift; sourceTree = "<group>"; };
+		1371AEB6FC38B9E43B1A108B /* NewWidgetSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWidgetSheet.swift; sourceTree = "<group>"; };
+		19BC2ECA44F4B359F00DD6D6 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		1B3FBE782AD9ECD591BE7CF8 /* WidgetForge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = WidgetForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB90B9636A565D3E307E39E /* AuroraNoiseFieldConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraNoiseFieldConcept.swift; sourceTree = "<group>"; };
+		22DCBC7CF3E48EFA45F64119 /* WidgetShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetShortcuts.swift; sourceTree = "<group>"; };
+		23FEA88112BD1F1238919018 /* ShowWidgetKindIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowWidgetKindIntents.swift; sourceTree = "<group>"; };
+		286569E073510461EFC2590F /* ComponentConfigForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentConfigForm.swift; sourceTree = "<group>"; };
+		2B88637001FBCFBAAC6A2183 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2CE0EF8EC5DFA0AC66A73C08 /* LayoutTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTimelineProvider.swift; sourceTree = "<group>"; };
+		2D652E0E7D287BDAED7F172A /* ThemeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeRenderer.swift; sourceTree = "<group>"; };
+		2D672BBEB4999C0033964D10 /* DarkLuxeConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkLuxeConcept.swift; sourceTree = "<group>"; };
+		2E3927C531BB6CF51A6BDB5C /* MinimalRingConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalRingConcept.swift; sourceTree = "<group>"; };
+		3479FF82B94BBA4ADDB5D124 /* OpenAndRefreshIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAndRefreshIntents.swift; sourceTree = "<group>"; };
+		3542B50D6169A93F415B9E34 /* HexTessellationConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexTessellationConcept.swift; sourceTree = "<group>"; };
+		392CCEC1147FC7763A78358A /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		4058D1C6172D2343ECC9E0FA /* ConceptContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptContext.swift; sourceTree = "<group>"; };
+		4318F659253AB4FA216791DD /* PreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCard.swift; sourceTree = "<group>"; };
+		44C765EE92CE39168C60C49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		474B09912F813833CDED548B /* HalftoneGradientConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalftoneGradientConcept.swift; sourceTree = "<group>"; };
+		4A08E19142C730EE0994A5BF /* LayoutEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutEditorSheet.swift; sourceTree = "<group>"; };
+		4BDB1784E4138ECED17E3C2C /* SliceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliceEntity.swift; sourceTree = "<group>"; };
+		4C5B7B4FB9A354A109790DBB /* ContourTopoConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContourTopoConcept.swift; sourceTree = "<group>"; };
+		4C754F58098A9FC41D705860 /* BoldDataVizConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoldDataVizConcept.swift; sourceTree = "<group>"; };
+		50046C58C26027819486254E /* ParticleConstellationConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleConstellationConcept.swift; sourceTree = "<group>"; };
+		52E97BD876CADED75A2C127A /* MonochromeInkConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonochromeInkConcept.swift; sourceTree = "<group>"; };
+		55EF604592417D99074F7B04 /* PaperMinimalConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperMinimalConcept.swift; sourceTree = "<group>"; };
+		576C50E5DA568B1DF1D30443 /* PublishingAppEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishingAppEntity.swift; sourceTree = "<group>"; };
+		57CDBABCA1FCD12131796B35 /* RibbonWave3DConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibbonWave3DConcept.swift; sourceTree = "<group>"; };
+		598104FFBE2B186D05A208C2 /* NeonWireGlobeConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonWireGlobeConcept.swift; sourceTree = "<group>"; };
+		5AC15AB3059EFC34FBA4E415 /* WidgetConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetConcept.swift; sourceTree = "<group>"; };
+		5D17EF3AD9F58FCF22E062F8 /* PersonaChipRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonaChipRow.swift; sourceTree = "<group>"; };
+		658764C0B85A6F169F229885 /* WarmSunsetConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmSunsetConcept.swift; sourceTree = "<group>"; };
+		691C0E7D8FA441F53DE1A48C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6A0A7CA26407063DD1B2EE5C /* WidgetForgeRefreshTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetForgeRefreshTask.swift; sourceTree = "<group>"; };
+		6A9EC21BEE6D49E2C8005A67 /* VoronoiShatterConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoronoiShatterConcept.swift; sourceTree = "<group>"; };
+		6AB195FC9ECAC90ED3A2B604 /* SummarizeWidgetIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarizeWidgetIntent.swift; sourceTree = "<group>"; };
+		6C1DDA3F6E4CFBF66D23C4F9 /* WidgetSnippetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnippetViews.swift; sourceTree = "<group>"; };
+		6D976861CD9CBBEA4F38C639 /* CellEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellEditorView.swift; sourceTree = "<group>"; };
+		7A5099DA78AAD668A3BF4E2E /* PlacementSolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementSolver.swift; sourceTree = "<group>"; };
+		7F0993C576AC852243856CFC /* CellChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellChrome.swift; sourceTree = "<group>"; };
+		84DC17DE41150C48D7E414D6 /* GlassRefractionConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassRefractionConcept.swift; sourceTree = "<group>"; };
+		8644FF466331B8AC92F0B470 /* BokehDepthConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokehDepthConcept.swift; sourceTree = "<group>"; };
+		8AB8974701FA8D0DC9A3607D /* LiquidGlassProConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassProConcept.swift; sourceTree = "<group>"; };
+		8E647C50BD32696FBB5FEB65 /* BindingPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPicker.swift; sourceTree = "<group>"; };
+		903C994B854716989FA8A8C9 /* WidgetForgeKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WidgetForgeKit; path = WidgetForgeKit; sourceTree = SOURCE_ROOT; };
+		9144C7BB38ED187B4ACFF696 /* SwissInternationalConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwissInternationalConcept.swift; sourceTree = "<group>"; };
+		938A642C6396B22986960493 /* montage.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = montage.py; sourceTree = "<group>"; };
+		93D1BC2CDDE813EA486880D1 /* NewspaperColumnConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewspaperColumnConcept.swift; sourceTree = "<group>"; };
+		9EB59C2BAF4E1B96900F136B /* StratifiedLayersConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratifiedLayersConcept.swift; sourceTree = "<group>"; };
+		A316A6DF92013D0997622CF3 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		A384B3350432567F6E32A6EF /* SelectLayoutIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLayoutIntent.swift; sourceTree = "<group>"; };
+		AB7C60E63B97E86C587766B6 /* LayoutFamilyChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutFamilyChoice.swift; sourceTree = "<group>"; };
+		B10852861CEC9897ABB97CF5 /* WidgetForgeAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetForgeAppDelegate.swift; sourceTree = "<group>"; };
+		B7FF48390A4F1FD107EA6D97 /* BrutalistMonoConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrutalistMonoConcept.swift; sourceTree = "<group>"; };
+		B83911D16A52B31C2D518C0D /* WidgetRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetRootView.swift; sourceTree = "<group>"; };
+		B94EE07EE832E5777AB781C3 /* DuotoneBoldConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuotoneBoldConcept.swift; sourceTree = "<group>"; };
+		BD0BC878F25A2069F455BA5D /* RecoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryView.swift; sourceTree = "<group>"; };
+		BE56A90C10C407EBD448FDBE /* WidgetForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetForgeApp.swift; sourceTree = "<group>"; };
+		C62F7CBB1905C9C6BB3C9623 /* GenerativeFlowFieldConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerativeFlowFieldConcept.swift; sourceTree = "<group>"; };
+		C825457DDEF6D85C79C9E495 /* EditorialSerifConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorialSerifConcept.swift; sourceTree = "<group>"; };
+		C83F2CD9D20DA7B1B1D8074B /* BentoGridConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoGridConcept.swift; sourceTree = "<group>"; };
+		CAD14D04731504741278846C /* NeumorphicConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicConcept.swift; sourceTree = "<group>"; };
+		CF88191FC3DF27AF13E5C2BD /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		D129AEED21648227B401E394 /* HolographicConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolographicConcept.swift; sourceTree = "<group>"; };
+		D1CCE66D3AE86D54B82E7082 /* NeonCyberConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeonCyberConcept.swift; sourceTree = "<group>"; };
+		D281E89FF33EB29A13A78436 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		D66E46DE33242B0D441FB2B7 /* MyWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetsView.swift; sourceTree = "<group>"; };
+		D8A0BB0784F4AC4148FD1587 /* ConceptRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConceptRenderer.swift; sourceTree = "<group>"; };
+		DB3B570752B84347A6593EF6 /* TerminalRetroConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalRetroConcept.swift; sourceTree = "<group>"; };
+		DCC56A52A11B5A6001A60622 /* AuroraGradientConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroraGradientConcept.swift; sourceTree = "<group>"; };
+		DD72DDFE1627868A0B9F2D3A /* GradientMeshConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientMeshConcept.swift; sourceTree = "<group>"; };
+		DDBD3BF9697FC7C390E9C624 /* DebugDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDataView.swift; sourceTree = "<group>"; };
+		DE5DD287C2E736C794941569 /* WidgetForgeWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = WidgetForgeWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BE18F3AB392101C9C103D2 /* LayeredParallaxGlassConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeredParallaxGlassConcept.swift; sourceTree = "<group>"; };
+		E5914F60A22CEB2B6EA2FF0F /* GlassFrostConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassFrostConcept.swift; sourceTree = "<group>"; };
+		E7A0AC80A2CD83933D678FB9 /* EditorCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorCanvas.swift; sourceTree = "<group>"; };
+		E7F91C7FBB864E57FEA0476C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED07BEF984ADD8AB646860C0 /* SpirographWeaveConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographWeaveConcept.swift; sourceTree = "<group>"; };
+		EDCAFF85ACC15E4A535A58B2 /* CircuitBoardConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuitBoardConcept.swift; sourceTree = "<group>"; };
+		F66BF20E3068AF2D24E3ECF2 /* TypeGridPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeGridPicker.swift; sourceTree = "<group>"; };
+		F68B2E5D3017EF8BE81F6DA8 /* TypographicPosterConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypographicPosterConcept.swift; sourceTree = "<group>"; };
+		F791C091B9158661E9FF9B0C /* SampleGlassConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGlassConcept.swift; sourceTree = "<group>"; };
+		F88DBF1AFCF91B06C7E6A590 /* PlayfulRoundedConcept.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayfulRoundedConcept.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61879F72BE60FEB63AD3024D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7E91A66D95EE0EDCD729D1 /* WidgetForgeKit in Frameworks */,
+				93B98ABC7DB1256ABE56ADC1 /* ThemeKitSwiftUICore in Frameworks */,
+				1834E747E34341AF604FD8D1 /* ThemeKitThemeManager in Frameworks */,
+				41FA7C3FD47CC6DE4799D178 /* ThemeKitCharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70C089F7993E11677383E94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3131910436C7E7F824D471 /* WidgetForgeKit in Frameworks */,
+				21AA0134D845CD2B82A4C5BD /* ThemeKitSwiftUICore in Frameworks */,
+				0487A61342CF55FD5330D385 /* ThemeKitThemeManager in Frameworks */,
+				31E06546D124A6A89EC86147 /* ThemeKitCharts in Frameworks */,
+				E776E8C2A98CE57FBBE1435F /* WidgetKit.framework in Frameworks */,
+				D0C2B4F485BD8E6944F245DB /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172839306E3F141910E2C34D = {
+			isa = PBXGroup;
+			children = (
+				CE0A681954797FD3D07D8511 /* Packages */,
+				68929CE6C1AC81505B00D2C2 /* WidgetForge */,
+				40419AE7D740F2B6BE525ABA /* WidgetForgeWidgets */,
+				8A064C7DD7EA63D04F7920A2 /* Frameworks */,
+				5137811AA18166080B632738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BDA8DE6936559CA8B0E23D4 /* DesignLab */ = {
+			isa = PBXGroup;
+			children = (
+				4058D1C6172D2343ECC9E0FA /* ConceptContext.swift */,
+				D8A0BB0784F4AC4148FD1587 /* ConceptRenderer.swift */,
+				938A642C6396B22986960493 /* montage.py */,
+				2D652E0E7D287BDAED7F172A /* ThemeRenderer.swift */,
+				5AC15AB3059EFC34FBA4E415 /* WidgetConcept.swift */,
+				A5B0335B85AA93C2A2A75221 /* Concepts */,
+			);
+			path = DesignLab;
+			sourceTree = "<group>";
+		};
+		40419AE7D740F2B6BE525ABA /* WidgetForgeWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				2CE0EF8EC5DFA0AC66A73C08 /* LayoutTimelineProvider.swift */,
+				A384B3350432567F6E32A6EF /* SelectLayoutIntent.swift */,
+				03D3A5B39034B98A2AED9FC3 /* WidgetForgeWidgetsBundle.swift */,
+				B83911D16A52B31C2D518C0D /* WidgetRootView.swift */,
+			);
+			path = WidgetForgeWidgets;
+			sourceTree = "<group>";
+		};
+		5137811AA18166080B632738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3FBE782AD9ECD591BE7CF8 /* WidgetForge.app */,
+				DE5DD287C2E736C794941569 /* WidgetForgeWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68929CE6C1AC81505B00D2C2 /* WidgetForge */ = {
+			isa = PBXGroup;
+			children = (
+				CF88191FC3DF27AF13E5C2BD /* AppRouter.swift */,
+				392CCEC1147FC7763A78358A /* AppsView.swift */,
+				44C765EE92CE39168C60C49F /* Assets.xcassets */,
+				DDBD3BF9697FC7C390E9C624 /* DebugDataView.swift */,
+				E7F91C7FBB864E57FEA0476C /* HomeView.swift */,
+				D66E46DE33242B0D441FB2B7 /* MyWidgetsView.swift */,
+				BD0BC878F25A2069F455BA5D /* RecoveryView.swift */,
+				BE56A90C10C407EBD448FDBE /* WidgetForgeApp.swift */,
+				A4A937AF15DB5B58802A8307 /* Background */,
+				3BDA8DE6936559CA8B0E23D4 /* DesignLab */,
+				E37ADD132C1E4AF990303E99 /* Editor */,
+				90EB76E92FB6A621037A16C1 /* Gallery */,
+				B8BB9ABA57917B1FE8DE08E4 /* Intents */,
+			);
+			path = WidgetForge;
+			sourceTree = "<group>";
+		};
+		8A064C7DD7EA63D04F7920A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B88637001FBCFBAAC6A2183 /* SwiftUI.framework */,
+				691C0E7D8FA441F53DE1A48C /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90EB76E92FB6A621037A16C1 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				08B4993BC54EAC1CC2707298 /* GalleryCard.swift */,
+				19BC2ECA44F4B359F00DD6D6 /* GalleryView.swift */,
+				A316A6DF92013D0997622CF3 /* GalleryViewModel.swift */,
+				1371AEB6FC38B9E43B1A108B /* NewWidgetSheet.swift */,
+				5D17EF3AD9F58FCF22E062F8 /* PersonaChipRow.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		A4A937AF15DB5B58802A8307 /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				B10852861CEC9897ABB97CF5 /* WidgetForgeAppDelegate.swift */,
+				6A0A7CA26407063DD1B2EE5C /* WidgetForgeRefreshTask.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		A5B0335B85AA93C2A2A75221 /* Concepts */ = {
+			isa = PBXGroup;
+			children = (
+				DCC56A52A11B5A6001A60622 /* AuroraGradientConcept.swift */,
+				1EB90B9636A565D3E307E39E /* AuroraNoiseFieldConcept.swift */,
+				C83F2CD9D20DA7B1B1D8074B /* BentoGridConcept.swift */,
+				8644FF466331B8AC92F0B470 /* BokehDepthConcept.swift */,
+				4C754F58098A9FC41D705860 /* BoldDataVizConcept.swift */,
+				B7FF48390A4F1FD107EA6D97 /* BrutalistMonoConcept.swift */,
+				EDCAFF85ACC15E4A535A58B2 /* CircuitBoardConcept.swift */,
+				4C5B7B4FB9A354A109790DBB /* ContourTopoConcept.swift */,
+				2D672BBEB4999C0033964D10 /* DarkLuxeConcept.swift */,
+				B94EE07EE832E5777AB781C3 /* DuotoneBoldConcept.swift */,
+				C825457DDEF6D85C79C9E495 /* EditorialSerifConcept.swift */,
+				C62F7CBB1905C9C6BB3C9623 /* GenerativeFlowFieldConcept.swift */,
+				E5914F60A22CEB2B6EA2FF0F /* GlassFrostConcept.swift */,
+				84DC17DE41150C48D7E414D6 /* GlassRefractionConcept.swift */,
+				DD72DDFE1627868A0B9F2D3A /* GradientMeshConcept.swift */,
+				474B09912F813833CDED548B /* HalftoneGradientConcept.swift */,
+				3542B50D6169A93F415B9E34 /* HexTessellationConcept.swift */,
+				D129AEED21648227B401E394 /* HolographicConcept.swift */,
+				E0BE18F3AB392101C9C103D2 /* LayeredParallaxGlassConcept.swift */,
+				0E1D3A19BB3C3444CC57D62A /* LiquidChromeBlobConcept.swift */,
+				8AB8974701FA8D0DC9A3607D /* LiquidGlassProConcept.swift */,
+				2E3927C531BB6CF51A6BDB5C /* MinimalRingConcept.swift */,
+				52E97BD876CADED75A2C127A /* MonochromeInkConcept.swift */,
+				D1CCE66D3AE86D54B82E7082 /* NeonCyberConcept.swift */,
+				598104FFBE2B186D05A208C2 /* NeonWireGlobeConcept.swift */,
+				CAD14D04731504741278846C /* NeumorphicConcept.swift */,
+				93D1BC2CDDE813EA486880D1 /* NewspaperColumnConcept.swift */,
+				55EF604592417D99074F7B04 /* PaperMinimalConcept.swift */,
+				50046C58C26027819486254E /* ParticleConstellationConcept.swift */,
+				F88DBF1AFCF91B06C7E6A590 /* PlayfulRoundedConcept.swift */,
+				0179CF4DDAEC49960A271D64 /* RadialSunburstConcept.swift */,
+				57CDBABCA1FCD12131796B35 /* RibbonWave3DConcept.swift */,
+				F791C091B9158661E9FF9B0C /* SampleGlassConcept.swift */,
+				ED07BEF984ADD8AB646860C0 /* SpirographWeaveConcept.swift */,
+				9EB59C2BAF4E1B96900F136B /* StratifiedLayersConcept.swift */,
+				9144C7BB38ED187B4ACFF696 /* SwissInternationalConcept.swift */,
+				DB3B570752B84347A6593EF6 /* TerminalRetroConcept.swift */,
+				F68B2E5D3017EF8BE81F6DA8 /* TypographicPosterConcept.swift */,
+				6A9EC21BEE6D49E2C8005A67 /* VoronoiShatterConcept.swift */,
+				658764C0B85A6F169F229885 /* WarmSunsetConcept.swift */,
+			);
+			path = Concepts;
+			sourceTree = "<group>";
+		};
+		B8BB9ABA57917B1FE8DE08E4 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				12758AA94BB4B073D030339E /* AskWidgetIntent.swift */,
+				071A1C956819A8FA32B900CD /* AuthorLayoutIntent.swift */,
+				AB7C60E63B97E86C587766B6 /* LayoutFamilyChoice.swift */,
+				3479FF82B94BBA4ADDB5D124 /* OpenAndRefreshIntents.swift */,
+				576C50E5DA568B1DF1D30443 /* PublishingAppEntity.swift */,
+				22DCBC7CF3E48EFA45F64119 /* WidgetShortcuts.swift */,
+				6C1DDA3F6E4CFBF66D23C4F9 /* WidgetSnippetViews.swift */,
+				23FEA88112BD1F1238919018 /* ShowWidgetKindIntents.swift */,
+				4BDB1784E4138ECED17E3C2C /* SliceEntity.swift */,
+				6AB195FC9ECAC90ED3A2B604 /* SummarizeWidgetIntent.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		CE0A681954797FD3D07D8511 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				903C994B854716989FA8A8C9 /* WidgetForgeKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E37ADD132C1E4AF990303E99 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				8E647C50BD32696FBB5FEB65 /* BindingPicker.swift */,
+				7F0993C576AC852243856CFC /* CellChrome.swift */,
+				6D976861CD9CBBEA4F38C639 /* CellEditorView.swift */,
+				286569E073510461EFC2590F /* ComponentConfigForm.swift */,
+				E7A0AC80A2CD83933D678FB9 /* EditorCanvas.swift */,
+				4A08E19142C730EE0994A5BF /* LayoutEditorSheet.swift */,
+				7A5099DA78AAD668A3BF4E2E /* PlacementSolver.swift */,
+				4318F659253AB4FA216791DD /* PreviewCard.swift */,
+				D281E89FF33EB29A13A78436 /* ThemePicker.swift */,
+				F66BF20E3068AF2D24E3ECF2 /* TypeGridPicker.swift */,
+				10FE68B0918517EFA4317C94 /* ValidationBanner.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F03CF38C986F3AA279F6A2B /* WidgetForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7762B4EC48122EC2B3E171 /* Build configuration list for PBXNativeTarget "WidgetForge" */;
+			buildPhases = (
+				71F37CA3641601B742F7F053 /* Sources */,
+				F7858D2687438242A7356185 /* Resources */,
+				61879F72BE60FEB63AD3024D /* Frameworks */,
+				6852A2FCD15EED4C7FF8E1B2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5032B863BE3C4E04A444FA38 /* PBXTargetDependency */,
+			);
+			name = WidgetForge;
+			packageProductDependencies = (
+				A01676AF28FB96AAA42C3165 /* WidgetForgeKit */,
+				4F3AF12F0BF615B8152D3295 /* ThemeKitSwiftUICore */,
+				2CC9E191E81196008CAA8FA2 /* ThemeKitThemeManager */,
+				56ACE9D1F610D35B12725AB3 /* ThemeKitCharts */,
+			);
+			productName = WidgetForge;
+			productReference = 1B3FBE782AD9ECD591BE7CF8 /* WidgetForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F83AB15966C93F78CEE0DD74 /* WidgetForgeWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61E23336245EC15B6910A08 /* Build configuration list for PBXNativeTarget "WidgetForgeWidgets" */;
+			buildPhases = (
+				C6DC2720A935FE5C88AA97AB /* Sources */,
+				70C089F7993E11677383E94C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetForgeWidgets;
+			packageProductDependencies = (
+				168E5D00DB8A82247002072D /* WidgetForgeKit */,
+				E1338C229165E3F2DD8F11DF /* ThemeKitSwiftUICore */,
+				B8AFECDCBE4699AD24D80844 /* ThemeKitThemeManager */,
+				591896791683108390911710 /* ThemeKitCharts */,
+			);
+			productName = WidgetForgeWidgets;
+			productReference = DE5DD287C2E736C794941569 /* WidgetForgeWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4949C90C723B6B860A5A29C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F03CF38C986F3AA279F6A2B = {
+					};
+					F83AB15966C93F78CEE0DD74 = {
+					};
+				};
+			};
+			buildConfigurationList = 7807CC5A42442772E1966E45 /* Build configuration list for PBXProject "WidgetForge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 172839306E3F141910E2C34D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */,
+				4E1C27E9AD8FEE38B0EE0B58 /* XCLocalSwiftPackageReference "WidgetForgeKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5137811AA18166080B632738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F03CF38C986F3AA279F6A2B /* WidgetForge */,
+				F83AB15966C93F78CEE0DD74 /* WidgetForgeWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7858D2687438242A7356185 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73983B80FDF3AB01FCAEDA3 /* Assets.xcassets in Resources */,
+				443CED0FEDDBCC80D62EB604 /* montage.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F37CA3641601B742F7F053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A452B030DC75D285462AB93D /* AppRouter.swift in Sources */,
+				421D3D589D349492037C5E65 /* AppsView.swift in Sources */,
+				BBFA38A5C29483EC5F6B72B8 /* AskWidgetIntent.swift in Sources */,
+				F31642410DAB6FBEBC79B906 /* AuroraGradientConcept.swift in Sources */,
+				44BD8F26C5060DCF87FAE349 /* AuroraNoiseFieldConcept.swift in Sources */,
+				EF2B29FC176F27EA2EFD71B2 /* AuthorLayoutIntent.swift in Sources */,
+				F77BA3CAD2A9EFAE08C67F74 /* BentoGridConcept.swift in Sources */,
+				4401BE6835E47CB4C371098C /* BindingPicker.swift in Sources */,
+				F410153E156F710EA283061E /* BokehDepthConcept.swift in Sources */,
+				257D5B38C99570D203B34280 /* BoldDataVizConcept.swift in Sources */,
+				1666D94A2DA35E16CA283B83 /* BrutalistMonoConcept.swift in Sources */,
+				C703A2E5078215D43B339024 /* CellChrome.swift in Sources */,
+				64131F47E844722EE6E7E5CD /* CellEditorView.swift in Sources */,
+				CBADC3C222788D26901E01B5 /* CircuitBoardConcept.swift in Sources */,
+				DA6BA573929EE17DC9952112 /* ComponentConfigForm.swift in Sources */,
+				2EAE1E336377678C3D030916 /* ConceptContext.swift in Sources */,
+				54262012468F5635DD6EE3B5 /* ConceptRenderer.swift in Sources */,
+				18E950E68F48E6F09C627CB0 /* ContourTopoConcept.swift in Sources */,
+				55A20BC320329040981CE791 /* DarkLuxeConcept.swift in Sources */,
+				DB02BD779ED9926D41B2A5B2 /* DebugDataView.swift in Sources */,
+				7036BE2D5EF95A20847AA178 /* DuotoneBoldConcept.swift in Sources */,
+				A21B7FDF4746C0931EB254CC /* EditorCanvas.swift in Sources */,
+				48F17417F419327EBACA7DD7 /* EditorialSerifConcept.swift in Sources */,
+				FEDBA4C96DAF316BCC619FD1 /* GalleryCard.swift in Sources */,
+				34B6EBCC69914595DA02F1EC /* GalleryView.swift in Sources */,
+				7EC964A69C84CDF7519DC387 /* GalleryViewModel.swift in Sources */,
+				F0BCE645C7C6B7BEE175494B /* GenerativeFlowFieldConcept.swift in Sources */,
+				FAEB6DE84D6D702D104C1E33 /* GlassFrostConcept.swift in Sources */,
+				ACDCA7AE29ECEECC343DDF57 /* GlassRefractionConcept.swift in Sources */,
+				35A86735A2B1444EF830E154 /* GradientMeshConcept.swift in Sources */,
+				34EFB289B209C0725B457911 /* HalftoneGradientConcept.swift in Sources */,
+				9348B18A90A870BF78FFD952 /* HexTessellationConcept.swift in Sources */,
+				35B991FE3AB0969FAE54C67C /* HolographicConcept.swift in Sources */,
+				EEADAFFF04E04A88055FCE36 /* HomeView.swift in Sources */,
+				08AEF1CCA6CBB14E5A1BFB13 /* LayeredParallaxGlassConcept.swift in Sources */,
+				650005A158CECFE040438C3C /* LayoutEditorSheet.swift in Sources */,
+				73C7DFC794E07FE608234D93 /* LayoutFamilyChoice.swift in Sources */,
+				9B651FB2AEF16B43A7C152DA /* LiquidChromeBlobConcept.swift in Sources */,
+				9A8B24D81A1FF88AC55DFB76 /* LiquidGlassProConcept.swift in Sources */,
+				359267504FD84E36B41DE890 /* MinimalRingConcept.swift in Sources */,
+				F42CDF3C83F11E3FCE1CEE1F /* MonochromeInkConcept.swift in Sources */,
+				2B506E64B1D881D848353885 /* MyWidgetsView.swift in Sources */,
+				4E04BEDEE67ED892F5458CB5 /* NeonCyberConcept.swift in Sources */,
+				39821F68EF02BD04059732AB /* NeonWireGlobeConcept.swift in Sources */,
+				EF739A22845BA87A4FE35F2B /* NeumorphicConcept.swift in Sources */,
+				4A5A0B0C5CD995F114111059 /* NewWidgetSheet.swift in Sources */,
+				34D05F8EB72087FB71D5EF22 /* NewspaperColumnConcept.swift in Sources */,
+				C1A00D0A8329B3EFA864D57F /* OpenAndRefreshIntents.swift in Sources */,
+				DE4393B54CD388E5B59EF026 /* PaperMinimalConcept.swift in Sources */,
+				2A3DB9B74EAF5D7CA1AEC599 /* ParticleConstellationConcept.swift in Sources */,
+				1F2E586B8A557E52C47CB917 /* PersonaChipRow.swift in Sources */,
+				563A27019C58090148F144ED /* PlacementSolver.swift in Sources */,
+				E9F69B8A5F00AA4605DB5BB4 /* PlayfulRoundedConcept.swift in Sources */,
+				E26864C7B45BD7A86FADA982 /* PreviewCard.swift in Sources */,
+				87B7B85EA8BE5A533FCA4442 /* PublishingAppEntity.swift in Sources */,
+				B0DCD9ED91F1A94C83F53903 /* RadialSunburstConcept.swift in Sources */,
+				CE1B3AC3CF943B947D5DE581 /* RecoveryView.swift in Sources */,
+				CF328DE03961A71C0AA39D93 /* RibbonWave3DConcept.swift in Sources */,
+				E956ED1CF9B80997707A5928 /* WidgetShortcuts.swift in Sources */,
+				05A865F6E714C5A0124FB604 /* WidgetSnippetViews.swift in Sources */,
+				27969B8A714B122BF516CD66 /* SampleGlassConcept.swift in Sources */,
+				A4AA9D81A61D158895F59492 /* ShowWidgetKindIntents.swift in Sources */,
+				C7220F08652C07FE3EED6BE3 /* SliceEntity.swift in Sources */,
+				75A80962086BB60E22F697B8 /* SpirographWeaveConcept.swift in Sources */,
+				D7C94F8DCB8FBFD8D04064D3 /* StratifiedLayersConcept.swift in Sources */,
+				219F63A39E8D1F4C7DC195AC /* SummarizeWidgetIntent.swift in Sources */,
+				93B2642CF5DF2C199294F6A6 /* SwissInternationalConcept.swift in Sources */,
+				BF9236411AE2940E2D87F2B2 /* TerminalRetroConcept.swift in Sources */,
+				E167D01F296508C09424CBEC /* ThemePicker.swift in Sources */,
+				DC737C361A27435C5516E3EE /* ThemeRenderer.swift in Sources */,
+				96F4C28209A0E217939E69AC /* TypeGridPicker.swift in Sources */,
+				3297B4330310B584D7E0494B /* TypographicPosterConcept.swift in Sources */,
+				9EE03CB1275251A6C4FA82C8 /* ValidationBanner.swift in Sources */,
+				6955B7BE77365977348DAED0 /* VoronoiShatterConcept.swift in Sources */,
+				8711D3D532442D88AF51C5CD /* WarmSunsetConcept.swift in Sources */,
+				8B6652C1EA993C3BBEA44207 /* WidgetConcept.swift in Sources */,
+				644CEF67FACFE3CDA092019F /* WidgetForgeApp.swift in Sources */,
+				EDEAA79F8B0A92AF08A28E1A /* WidgetForgeAppDelegate.swift in Sources */,
+				DD49111E915FD74E200C53BC /* WidgetForgeRefreshTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DC2720A935FE5C88AA97AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889951C31494A4AB7AC5FF02 /* LayoutTimelineProvider.swift in Sources */,
+				CECF1E81CB2791F1D71905AA /* SelectLayoutIntent.swift in Sources */,
+				94CA1CCF71CE5F9929AA2192 /* WidgetForgeWidgetsBundle.swift in Sources */,
+				BE9A02AF7D270E3CA27C408C /* WidgetRootView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5032B863BE3C4E04A444FA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83AB15966C93F78CEE0DD74 /* WidgetForgeWidgets */;
+			targetProxy = 8A39856B1F35FC53E62BE8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12F83C771493FAAD2DA09928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = WidgetForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.widgetforge;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E255841017D43AB9626FA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = WidgetForge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.widgetforge;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6381CD8EC7B57A55A84246F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		CDEDBFE139A77A49E91A2993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WidgetForgeWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.widgetforge.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC07E3A955C89C710A05BDA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WidgetForgeWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.widgetforge.widgets;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD27F24C5A0CEA2D143A41E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7807CC5A42442772E1966E45 /* Build configuration list for PBXProject "WidgetForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6381CD8EC7B57A55A84246F7 /* Debug */,
+				DD27F24C5A0CEA2D143A41E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A7762B4EC48122EC2B3E171 /* Build configuration list for PBXNativeTarget "WidgetForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12F83C771493FAAD2DA09928 /* Debug */,
+				1E255841017D43AB9626FA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F61E23336245EC15B6910A08 /* Build configuration list for PBXNativeTarget "WidgetForgeWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC07E3A955C89C710A05BDA9 /* Debug */,
+				CDEDBFE139A77A49E91A2993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4E1C27E9AD8FEE38B0EE0B58 /* XCLocalSwiftPackageReference "WidgetForgeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = WidgetForgeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://example.com/widgetforge-theme-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 26.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		168E5D00DB8A82247002072D /* WidgetForgeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WidgetForgeKit;
+		};
+		2CC9E191E81196008CAA8FA2 /* ThemeKitThemeManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */;
+			productName = ThemeKitThemeManager;
+		};
+		4F3AF12F0BF615B8152D3295 /* ThemeKitSwiftUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */;
+			productName = ThemeKitSwiftUICore;
+		};
+		56ACE9D1F610D35B12725AB3 /* ThemeKitCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */;
+			productName = ThemeKitCharts;
+		};
+		591896791683108390911710 /* ThemeKitCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */;
+			productName = ThemeKitCharts;
+		};
+		A01676AF28FB96AAA42C3165 /* WidgetForgeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WidgetForgeKit;
+		};
+		B8AFECDCBE4699AD24D80844 /* ThemeKitThemeManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */;
+			productName = ThemeKitThemeManager;
+		};
+		E1338C229165E3F2DD8F11DF /* ThemeKitSwiftUICore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEC72F1411BA92EC285ADDF8 /* XCRemoteSwiftPackageReference "widgetforge-theme-kit" */;
+			productName = ThemeKitSwiftUICore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4949C90C723B6B860A5A29C2 /* Project object */;
+}

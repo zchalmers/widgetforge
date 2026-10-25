@@ -1,0 +1,108 @@
+name: WidgetForge
+options:
+  bundleIdPrefix: com.example.widgetforge
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "26.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+    GENERATE_INFOPLIST_FILE: NO
+    ENABLE_MODULE_VERIFIER: NO
+packages:
+  WidgetForgeKit:
+    path: WidgetForgeKit
+  # Widget ThemeKit for iOS — commercial BINARY SDK (widgetforge-theme-kit), which ships ThemeKit
+  # as prebuilt xcframeworks that link cleanly under Xcode 27. The open-source
+  # widgetforge-theme-kit-themeKit compiled from source and linked private SwiftUICore,
+  # which the Xcode 27 linker rejects. Matches mediashare-swift-ios.
+  widgetforge-theme-kit:
+    url: https://example.com/widgetforge-theme-kit.git
+    from: "26.4.3"
+targets:
+  WidgetForge:
+    type: application
+    platform: iOS
+    sources:
+      - path: WidgetForge
+        excludes:
+          - "Info.plist"
+          - "WidgetForge.entitlements"
+    dependencies:
+      - package: WidgetForgeKit
+        product: WidgetForgeKit
+      - package: widgetforge-theme-kit
+        product: ThemeKitSwiftUICore
+      - package: widgetforge-theme-kit
+        product: ThemeKitThemeManager
+      - package: widgetforge-theme-kit
+        product: ThemeKitCharts
+      - target: WidgetForgeWidgets
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.widgetforge
+        INFOPLIST_FILE: WidgetForge/Info.plist
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SUPPORTS_MACCATALYST: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  WidgetForgeWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: WidgetForgeWidgets
+        excludes:
+          - "Info.plist"
+          - "WidgetForgeWidgets.entitlements"
+    dependencies:
+      - package: WidgetForgeKit
+        product: WidgetForgeKit
+      - package: widgetforge-theme-kit
+        product: ThemeKitSwiftUICore
+      - package: widgetforge-theme-kit
+        product: ThemeKitThemeManager
+      - package: widgetforge-theme-kit
+        product: ThemeKitCharts
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.widgetforge.widgets
+        INFOPLIST_FILE: WidgetForgeWidgets/Info.plist
+        TARGETED_DEVICE_FAMILY: "1,2"
+# Shared schemes are declared here so `xcodegen generate` regenerates them into
+# xcshareddata/xcschemes rather than wiping them. Keep in sync with the targets.
+schemes:
+  WidgetForge:
+    build:
+      targets:
+        WidgetForge: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  WidgetForgeWidgets:
+    build:
+      targets:
+        WidgetForgeWidgets: all
+        WidgetForge: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
